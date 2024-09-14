@@ -34,6 +34,7 @@
   --fs-small: 14px;
 
   --line-height-bg: 40px;
+  --line-height-pre-bg: 32px;
   --line-height-medium: 24px;
   --line-height-small: 18px;
 
@@ -71,7 +72,8 @@ ul {
 }
 
 a {
-  text-decoration: unset;
+  text-decoration: none;
+  color: var(--text-color-black);
 }
 
 button {
@@ -84,7 +86,7 @@ button {
   margin-right: 40px;
 }
 
-.nav .menu {
+.nav .header-menu {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -222,9 +224,13 @@ h3:before {
   font-size: var(--fs-medium);
   line-height: var(--line-height-medium);
   color: var(--text-color-gray);
+
+  cursor: pointer;
+  border: 2px solid transparent;
 }
 
-.menu-act__item.active  .menu-act__btn{
+.menu-act__item.active  .menu-act__btn,
+.menu-act__item .menu-act__btn:hover {
   border: 2px solid var(--border-color-menu-act);
   border-radius: 6px;
 }
