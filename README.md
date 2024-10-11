@@ -6,7 +6,7 @@
   </li>
 
   <li>
-    <a href="https://ez535.github.io/layout-BEM/burger-menu/">
+    <a href="https://ez535.github.io/layout-BEM/burger-menu/index.html">
       https://ez535.github.io/layout-BEM/burger-menu/
     </a>
   </li>
